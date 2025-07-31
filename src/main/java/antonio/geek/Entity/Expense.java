@@ -4,8 +4,8 @@ import java.time.LocalDate;
 
 public class Expense {
     private final String label;
-    double amount;
-    LocalDate date;
+    private double amount;
+    private LocalDate date;
 
     public Expense(String label, double amount, LocalDate date) {
         this.label = label;
